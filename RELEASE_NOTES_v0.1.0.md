@@ -6,7 +6,7 @@
 
 这是 REPO Delta Force Mod 的第一版可游玩公开版本。
 
-这个项目的灵感来自一个“把三角洲护航摸金体验带进 REPO”的视频设想。作为同时玩三角洲和 REPO 的玩家，我想把那种特殊摸金氛围和事件感，以更适合 REPO 的方式做进游戏里，于是有了这个 mod。
+这个项目的灵感来自一个“把三角洲护航摸金体验带进 REPO”的视频设想。作为同时玩三角洲和 REPO 的玩家，我想把那种带有事件感、风险感和高回报目标感的特殊摸金体验，以更适合 REPO 的方式做进游戏里，于是有了这个 mod。
 
 我不是专业开发者，这更像是一个玩家作者边做边学完成的主题化玩法尝试。
 
@@ -32,7 +32,9 @@
 如果后续继续更新，当前比较明确的方向包括：
 
 - 继续扩展哈夫克物资池，加入更多有趣物资
+- 加入高回报但带特殊效果或额外风险的物资，让特殊物资不只是“值多少钱”，而是能真正改变玩家的决策和节奏
 - 增加“收集一整套获得特殊奖励”之类的新玩法
+- 继续完善军用信息终端、飞行记录仪和航空箱目前还未完全实装的那部分潜力
 - 推出阿萨拉事件
 - 增加阿萨拉集团物资池
 - 等事件和物资逐渐丰富后，再去调整开局事件触发概率
@@ -69,7 +71,9 @@ I am not a professional developer. This is better described as a player-made the
 If development continues, the current roadmap direction includes:
 
 - expanding the Havoc supply pool with more interesting items
+- introducing high-reward items that also come with special effects or additional risk, making special supplies differ not only by value but also by decision pressure and interaction style
 - introducing set-collection rewards or similar mechanics
+- continuing to complete and refine the still-unfinished potential of the military terminal, flight recorder, and air drop case
 - adding an Assala-themed event
 - building an Assala company supply pool
 - adjusting opening event trigger rates later, once the event and item pools become richer
