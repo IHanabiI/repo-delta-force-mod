@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+BepInEx/
+plugins/
+repolib-export/
+Directory.Repo.props.user

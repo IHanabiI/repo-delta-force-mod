@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <RepoGameDir Condition="'$(RepoGameDir)' == ''">C:\Path\To\REPO</RepoGameDir>
+    <BepInExDirectory Condition="'$(BepInExDirectory)' == ''">C:\Path\To\BepInEx</BepInExDirectory>
+    <RepoManagedDir Condition="'$(RepoManagedDir)' == ''">$(RepoGameDir)\REPO_Data\Managed</RepoManagedDir>
+    <RepoBepInExCoreDir Condition="'$(RepoBepInExCoreDir)' == ''">$(BepInExDirectory)\core</RepoBepInExCoreDir>
+    <RepoTargetFramework Condition="'$(RepoTargetFramework)' == ''">netstandard2.1</RepoTargetFramework>
+  </PropertyGroup>
+
+  <Import Project="Directory.Repo.props.user" Condition="Exists('Directory.Repo.props.user')" />
+</Project>

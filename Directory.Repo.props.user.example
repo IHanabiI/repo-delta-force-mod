@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <RepoGameDir>E:\SteamLibrary\steamapps\common\REPO</RepoGameDir>
+    <BepInExDirectory>C:\Path\To\ThunderstoreProfile\BepInEx</BepInExDirectory>
+  </PropertyGroup>
+</Project>
