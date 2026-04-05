@@ -10,6 +10,16 @@
 
 我不是专业开发者，这更像是一个玩家作者边做边学完成的主题化玩法尝试。
 
+### 本版定位
+
+当前版本的整体定位不是“完整阵营系统已经全部落地”，而是“三角洲行动主题玩法模组的第一版原型”。
+
+这意味着：
+
+- 总体方向是三角洲行动主题的特殊摸金玩法
+- 当前第一版只先落地了一个哈夫克事件雏形
+- 后续的其他事件和阵营内容仍然处于待续状态
+
 ### 本版内容
 
 - 加入哈夫克开局事件
@@ -39,6 +49,12 @@
 - 增加阿萨拉集团物资池
 - 等事件和物资逐渐丰富后，再去调整开局事件触发概率
 
+就现有三件核心物资来说，后续也有比较明确的完善方向：
+
+- 军用信息终端：更精准，但更容易引怪
+- 飞行记录仪：不仅干扰环境和玩家，也会对怪物产生干扰
+- 航空箱：继续围绕大小、重量、价值与开启收益结构做平衡调整
+
 ## English
 
 ### Overview
@@ -48,6 +64,16 @@ This is the first publicly shareable playable version of REPO Delta Force Mod.
 The project was inspired by the idea of bringing a Delta Force-style escort looting experience into REPO. As a player of both Delta Force and REPO, I wanted to recreate part of that special extraction-loot atmosphere in a way that fits REPO, which is how this mod began.
 
 I am not a professional developer. This is better described as a player-made themed gameplay project built while learning along the way.
+
+### Current Positioning
+
+The current version should not be read as “the full faction system is already finished,” but rather as “the first prototype release of a Delta Force-themed gameplay mod.”
+
+That means:
+
+- the broader direction is Delta Force-themed special extraction gameplay
+- the first release only ships with an initial Havoc event prototype
+- other events and faction branches are still planned for the future
 
 ### Included In This Release
 
@@ -77,3 +103,9 @@ If development continues, the current roadmap direction includes:
 - adding an Assala-themed event
 - building an Assala company supply pool
 - adjusting opening event trigger rates later, once the event and item pools become richer
+
+There are also clearer future directions for the current three core supplies:
+
+- Military terminal: more precise, but more likely to attract monsters
+- Flight recorder: interference that affects the environment, the player, and monsters
+- Air drop case: further balance tuning around size, weight, value, and opening reward structure

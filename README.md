@@ -1,7 +1,7 @@
 # REPO Delta Force Mod
 
-中文：这是一个为 REPO 制作的哈夫克主题玩法模组，围绕特殊开局事件、军用信息终端、飞行记录仪和航空箱，扩展原版搜刮、搬运与风险取舍体验。  
-English: A Havoc-themed gameplay mod for REPO, expanding the base scavenging, hauling, and risk-reward loop with a special opening event, a military terminal, a flight recorder, and an air drop case.
+中文：这是一个三角洲行动主题的 REPO 玩法模组，目标是把三角洲行动里带有事件感、风险感和高回报取舍的特殊摸金机制，以更适合 REPO 的方式逐步做进游戏里。当前第一版只是以哈夫克事件为起点，后续的其他事件与阵营内容仍处于待续状态。  
+English: This is a Delta Force-themed gameplay mod for REPO. Its goal is to gradually bring Delta Force-style special extraction-loot mechanics, including event-driven supply drops, risk-reward items, and faction-based progression, into REPO in a way that fits the game. The current first version starts with a Havoc event prototype, while other events and factions remain planned for future expansion.
 
 ## Origin | 创作缘起
 
@@ -17,7 +17,7 @@ English: A Havoc-themed gameplay mod for REPO, expanding the base scavenging, ha
 
 This project was inspired by a video built around the idea of bringing a Delta Force-style escort looting experience into REPO.
 
-As a player of both Delta Force and REPO, I wanted to bring that sense of special event-driven looting, risk, and high-value target chasing into REPO in a way that better fits the game, which is how this mod started.
+As a player of both Delta Force and REPO, I wanted to bring that sense of event-driven looting, risk, and high-value target chasing into REPO in a way that better fits the game, which is how this mod started.
 
 I am not a professional developer. This project is better described as a player-made themed gameplay experiment built while learning along the way.
 
@@ -31,29 +31,33 @@ I am not a professional developer. This project is better described as a player-
 
 - 当前核心玩法已经完成并可正常游玩
 - 仓库已经完成一轮公开源码整理
+- 当前第一版更像一个“阵营事件原型 + 核心物资玩法样板”
 - 后续是否继续长期更新，会根据玩家反馈再决定
 
 ### English
 
 - The core gameplay loop is already implemented and playable
 - The repository has been cleaned for public source hosting
+- The current first version is closer to a “faction event prototype + core supply gameplay sample”
 - Longer-term updates will depend on player feedback and interest
 
 ## Gameplay Overview | 玩法概览
 
-### Havoc Opening Event | 哈夫克开局事件
+### Delta Force-Themed Event Structure | 三角洲行动主题事件结构
 
 ### 中文
 
 当前版本采用事件触发的方式推进玩法。
 
-当哈夫克事件触发时，地图中会投放哈夫克公司的特殊物资，用这套事件来承接模组的主要内容。
+当哈夫克事件触发时，地图中会投放哈夫克公司的特殊物资，用这套事件来承接模组的主要内容。  
+从整体设计上看，这套结构并不只服务哈夫克，而是作为未来更多阵营事件的总框架。
 
 ### English
 
 The current version uses an event-driven structure.
 
-When the Havoc event triggers, Havoc company supplies are inserted into the map, and that event acts as the main delivery mechanism for the mod's special content.
+When the Havoc event triggers, Havoc company supplies are inserted into the map, and that event acts as the main delivery mechanism for the mod's special content.  
+At a larger design level, this structure is not meant for Havoc alone, but as the framework for future faction events as well.
 
 ### Military Terminal | 军用信息终端
 
@@ -136,7 +140,13 @@ dotnet build .\source\RepoDeltaForceMod.RuntimeRecovered\RepoDeltaForceMod.cspro
 - 扩展阿萨拉集团物资池
 - 等事件和物资逐渐丰富后，再去调整开局事件触发概率
 
-另外，当前的军用信息终端、飞行记录仪和航空箱虽然已经能形成完整玩法，但都还只是实现了部分功能。  
+目前三个核心物资也都还有继续完善的空间：
+
+- 军用信息终端未来可以继续朝“更精准，但更容易引怪”的方向完善
+- 飞行记录仪未来可以继续朝“同时干扰环境、玩家和怪物”的方向扩展
+- 航空箱未来仍然可以继续通过大小、重量、价值和开启收益结构来做平衡调整
+
+换句话说，当前的军用信息终端、飞行记录仪和航空箱虽然已经能形成完整玩法，但都还只是实现了部分功能。  
 如果后续继续更新，我也希望继续把这三类核心物资往更完整、更有特色的方向实装和细化。
 
 ### English
@@ -153,10 +163,16 @@ The clearest idea right now is to deepen the event-driven special looting experi
 - building an Assala company supply pool
 - adjusting opening event trigger rates later, once the event and item pools become richer
 
-Also, while the military terminal, flight recorder, and air drop case already form a working gameplay loop, each of them still represents only part of its full potential design.  
+The current three core supplies also still have room to grow:
+
+- the military terminal can continue toward a “more precise, but more aggro” design
+- the flight recorder can continue expanding toward interference that affects the environment, the player, and monsters at the same time
+- the air drop case can still be balanced further through its size, weight, value, and opening reward structure
+
+In other words, while the military terminal, flight recorder, and air drop case already form a working gameplay loop, each of them still represents only part of its full potential design.  
 If development continues, I would like to keep expanding and refining these three core supplies as well.
 
 ## Suggested Repository Description | 仓库简介建议
 
-中文：为 REPO 制作的哈夫克主题玩法模组，灵感来自“把三角洲护航摸金体验带进 REPO”的视频设想，当前版本通过哈夫克事件向地图投放特殊物资，包括军用信息终端、飞行记录仪与航空箱。  
-English: A Havoc-themed gameplay mod for REPO, inspired by the idea of bringing Delta Force-style escort looting into REPO, currently using a Havoc event to inject special supplies into the map, including a military terminal, a flight recorder, and an air drop case.
+中文：这是一个三角洲行动主题的 REPO 玩法模组，灵感来自“把三角洲护航摸金体验带进 REPO”的视频设想。当前第一版以哈夫克事件为起点，通过事件向地图投放军用信息终端、飞行记录仪与航空箱等特殊物资。  
+English: This is a Delta Force-themed gameplay mod for REPO, inspired by the idea of bringing Delta Force-style escort looting into REPO. The current first version starts with a Havoc event prototype that injects special supplies such as the military terminal, flight recorder, and air drop case into the map.
