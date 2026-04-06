@@ -172,7 +172,7 @@ The current three core supplies also still have room to grow:
 In other words, while the military terminal, flight recorder, and air drop case already form a working gameplay loop, each of them still represents only part of its full potential design.  
 If development continues, I would like to keep expanding and refining these three core supplies as well.
 
-## Suggested Repository Description | 仓库简介建议
+## Suggested Repository Description | 仓库简介
 
 中文：这是一个三角洲行动主题的 REPO 玩法模组，灵感来自“把三角洲护航摸金体验带进 REPO”的视频设想。当前第一版以哈夫克事件为起点，通过事件向地图投放军用信息终端、飞行记录仪与航空箱等特殊物资。  
 English: This is a Delta Force-themed gameplay mod for REPO, inspired by the idea of bringing Delta Force-style escort looting into REPO. The current first version starts with a Havoc event prototype that injects special supplies such as the military terminal, flight recorder, and air drop case into the map.
